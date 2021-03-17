@@ -25,16 +25,19 @@ public class AssertTeste {
 
     @Test
     public void testAssertNotNull() { // Testa para garantir que um objeto não está retornando Nulo.
+
         assertNotNull(new Object());
     }
 
     @Test
     public void testAssertNotSame() { // Compara os objetos e verificam se não são os mesmos.
+
         assertNotSame(new Object(), new Object());
     }
 
     @Test
     public void testAssertNull() { // Testa pra garantir que aquele objeto está Nulo.
+
         assertNull(null);
     }
 
